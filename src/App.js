@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 import './App.css';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="app">
       <textarea onChange={handleChange} value={markdown} />
-      <div className="preview">{markdown}</div>
+      <ReactMarkdown className="preview" children={markdown} />
     </div>
   );
 }
