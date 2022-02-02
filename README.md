@@ -5,7 +5,8 @@
 </p>
 
 # Markdown Editor
-About this app 
+
+> About this app 
 
 ![screenshot](./markdown.png)
 
@@ -22,13 +23,13 @@ To run this project, you only need a computer with a browser (like Google Chrome
 1. In your terminal, type the following, to clone this repository:
 
 ```sh
-$ git clone https://github.com/Cathella/pomodoro.git
+$ git clone https://github.com/Cathella/markdown-editor.git
 ```
 
 2. After, run the following commands in your terminal:
 
 ```sh
-$ cd pomodoro
+$ cd markdown-editor
 $ npm install
 $ npm start
 ```
